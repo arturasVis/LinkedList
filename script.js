@@ -18,7 +18,7 @@ function createLinkedList(head=null){
                 this.size=1;
             }
             else{
-                this.tail.nextNode=newNode;
+                this.head.nextNode=newNode;
                 this.tail=newNode;
                 this.size++;
             }
